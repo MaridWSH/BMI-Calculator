@@ -1,4 +1,4 @@
-height = int( input("enter your hight : ") )
-weight = int( input("enter your hight : ") )
-BMI =  str(height / (weight **2 )) 
-print ("Your Body Mass Index is :"+ BMI +" kg/m2" )
+weight = int( input("enter your Weight : ") )
+height = float( input("enter your Hight : ") )
+BMI =  (weight / (height **2 )) 
+print (f"Your Body Mass Index is : {BMI} kg/m2" )
